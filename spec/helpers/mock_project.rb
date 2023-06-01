@@ -119,14 +119,35 @@ module Tapioca
       end
     end
 
+    TAPIOCA_DEPENDENCIES = T.let(
+      [
+        "diff-lcs",
+        "rbi",
+        "spoom",
+        "tapioca",
+        "thor",
+        "unparser",
+        "yard",
+        "yard-sorbet",
+      ],
+      T::Array[String],
+    )
+
     # Run a Tapioca `command` with `bundle exec` in this project context (unbundled env)
-    sig { params(command: String, enforce_typechecking: T::Boolean).returns(ExecResult) }
-    def tapioca(command, enforce_typechecking: true)
+    sig do
+      params(
+        command: String,
+        enforce_typechecking: T::Boolean,
+        exclude: T::Array[String],
+      ).returns(ExecResult)
+    end
+    def tapioca(command, enforce_typechecking: true, exclude: TAPIOCA_DEPENDENCIES)
       exec_command = ["tapioca", command]
       if command.start_with?(/gem/)
         exec_command << "--workers=1" unless command.match?("--workers")
         exec_command << "--no-doc" unless command.match?("--doc")
         exec_command << "--no-loc" unless command.match?("--loc")
+        exec_command << "--exclude #{exclude.join(" ")}" unless command.match?("--exclude") || exclude.empty?
       elsif command.start_with?(/dsl/)
         exec_command << "--workers=1" unless command.match?("--workers")
       end
