@@ -3,16 +3,16 @@
 ## Tech Stack
 2lambda123/tapioca is built on the following main stack:
 
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- [GraphQL](http://graphql.org/) – Query Languages
 - [SQLite](http://www.sqlite.org/) – Databases
 - [Sidekiq](http://sidekiq.org/) – Background Processing
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [RuboCop](http://batsov.com/rubocop/) – Code Review
 - [Bundler](http://bundler.io) – Front End Package Manager
-- [GraphQL](http://graphql.org/) – Query Languages
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [RuboCop](http://batsov.com/rubocop/) – Code Review
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -22,16 +22,16 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/tapioca is built on the following main stack:
 
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/990/x57_Lorv.png' alt='Rails'/> [Rails](http://rubyonrails.org/) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/3820/12972006.png' alt='GraphQL'/> [GraphQL](http://graphql.org/) – Query Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1071/sqlite.jpg' alt='SQLite'/> [SQLite](http://www.sqlite.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png' alt='Sidekiq'/> [Sidekiq](http://sidekiq.org/) – Background Processing
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/2643/rubocop.png' alt='RuboCop'/> [RuboCop](http://batsov.com/rubocop/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/2988/4e77LXIo_400x400.png' alt='Bundler'/> [Bundler](http://bundler.io) – Front End Package Manager
-- <img width='25' height='25' src='https://img.stackshare.io/service/3820/12972006.png' alt='GraphQL'/> [GraphQL](http://graphql.org/) – Query Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/2643/rubocop.png' alt='RuboCop'/> [RuboCop](http://batsov.com/rubocop/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -42,7 +42,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/tapioca](https://github.com/2lambda123/tapioca)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|37<br/>Tools used|01/09/24 <br/>Report generated|
+|37<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -200,7 +200,7 @@ Full tech stack [here](/techstack.md)
 |[minitest-hooks](https://rubygems.org/minitest-hooks)|v1.5.0|05/31/23|Andy Waite |MIT|N/A|
 |[minitest-reporters](https://rubygems.org/minitest-reporters)|v1.6.0|05/31/23|Andy Waite |MIT|N/A|
 |[netrc](https://rubygems.org/netrc)|v0.11.0|06/13/22|Alexandre Terrasa |MIT|N/A|
-|[nokogiri](https://rubygems.org/nokogiri)|v1.15.2|05/31/23|Andy Waite |MIT|N/A|
+|[nokogiri](https://rubygems.org/nokogiri)|v1.15.2|05/31/23|Andy Waite |MIT|[](https://github.com/advisories/GHSA-xc9x-jj77-9p9j) (Moderate)|
 |[parallel](https://rubygems.org/parallel)|v1.23.0|04/06/22|Emily Giurleo |MIT|N/A|
 |[pry](https://rubygems.org/pry)|v0.14.2|05/27/19|Ufuk Kayserilioglu |MIT|N/A|
 |[pry-byebug](https://rubygems.org/pry-byebug)|v3.10.1|05/31/23|Andy Waite |MIT|N/A|
