@@ -1,0 +1,517 @@
+repo_name: 2lambda123/tapioca
+report_id: aae86366d0b743be036f7b2e2e11c048
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:20:12+00:00'
+requested_by: paracycle
+provider: github
+branch: main
+detected_tools_count: 37
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2019-05-27 10:35:15.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/tapioca
+  detection_source: Repo Metadata
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 7.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: GraphQL
+  description: A data query language and runtime
+  website_url: http://graphql.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Query Languages
+  image_url: https://img.stackshare.io/service/3820/12972006.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2019-05-27 10:35:15.000000000 Z
+- name: Sidekiq
+  description: Simple, efficient background processing for Ruby
+  website_url: http://sidekiq.org/
+  version: 7.1.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/1078/4b7277462dadad85454ab427ce3f0ca7.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: Bundler
+  description: A consistent environment for tracking and installing  gems and versions
+  website_url: http://bundler.io
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/2988/4e77LXIo_400x400.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/tapioca.gemspec
+  detection_source: tapioca.gemspec
+  last_updated_by: Kaan Ozkan
+  last_updated_on: 2023-03-21 16:29:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/tapioca
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-04-18 12:30:49.000000000 Z
+- name: RuboCop
+  description: A Ruby static code analyzer, based on the community Ruby style guide
+  website_url: http://batsov.com/rubocop/
+  version: 1.50.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2643/rubocop.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2019-05-27 10:35:15.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/tapioca.gemspec
+  detection_source: tapioca.gemspec
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2019-05-27 10:35:15.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2019-05-27 10:35:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/tapioca
+  detection_source: Repo Metadata
+- name: xpath
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XPath
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4621/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: aasm
+  description: AASM is a continuation of the acts-as-state-machine rails plugin
+  package_url: https://rubygems.org/aasm
+  version: 5.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19294/default_884a22e9df9e57283c5b613256b2fd8913e1117c.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: activeresource
+  description: REST on Rails
+  package_url: https://rubygems.org/activeresource
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18993/default_e5e3569d4beb5d51f9ce87c88e8b44a2308e087b.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: bcrypt
+  description: Bcrypt
+  package_url: https://rubygems.org/bcrypt
+  version: 3.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19054/default_2be036aaca5c71baf790e00f1ef80dd37a625905.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: config
+  description: 'Easiest way to manage multi-environment settings in any ruby project
+    or framework: Rails'
+  package_url: https://rubygems.org/config
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: google-protobuf
+  description: Protocol Buffers are Google's data interchange format
+  package_url: https://rubygems.org/google-protobuf
+  version: 3.23.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19341/default_849f13df0460b1a68f411e3feb501eecb9826bba.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: kramdown
+  description: Kramdown is yet-another-markdown-parser but fast
+  package_url: https://rubygems.org/kramdown
+  version: 2.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18939/default_9835367d7a13be70dd38d3b7dfa4b8514b31a43d.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2022-07-20 17:47:11.000000000 Z
+- name: minitest
+  description: Minitest provides a complete suite of testing facilities supporting
+    TDD, BDD, mocking, and benchmarking
+  package_url: https://rubygems.org/minitest
+  version: 5.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: minitest-hooks
+  description: Minitest-hooks adds around and before_all/after_all/around_all hooks
+    for Minitest
+  package_url: https://rubygems.org/minitest-hooks
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19482/default_54d3961559b3237b4410bba84f98deb6e4476f23.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: minitest-reporters
+  description: Death to haphazard monkey-patching! Extend Minitest through simple
+    hooks
+  package_url: https://rubygems.org/minitest-reporters
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18888/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: netrc
+  description: This library can read and update netrc files
+  package_url: https://rubygems.org/netrc
+  version: 0.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19153/default_793ba7f9cd6862ec4ed42ac851295ecaaa91f66c.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: tapioca.gemspec
+  last_updated_by: Alexandre Terrasa
+  last_updated_on: 2022-06-13 23:36:33.000000000 Z
+- name: nokogiri
+  description: Nokogiri
+  package_url: https://rubygems.org/nokogiri
+  version: 1.15.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18823/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+  vulnerabilities:
+  - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
+    detected_date: Feb 6
+    severity: moderate
+    first_patched: 1.16.2
+- name: parallel
+  description: Run any kind of code in parallel processes
+  package_url: https://rubygems.org/parallel
+  version: 1.23.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18994/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: tapioca.gemspec
+  last_updated_by: Emily Giurleo
+  last_updated_on: 2022-04-06 15:50:06.000000000 Z
+- name: pry
+  description: An IRB alternative and runtime developer console
+  package_url: https://rubygems.org/pry
+  version: 0.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2019-05-27 10:35:15.000000000 Z
+- name: pry-byebug
+  description: Combine 'pry' with 'byebug'
+  package_url: https://rubygems.org/pry-byebug
+  version: 3.10.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18848/default_1c2935fa69cec14d38adad302e002464101cd71f.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 13.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: rubocop-rspec
+  description: Code style checking for RSpec files
+  package_url: https://rubygems.org/rubocop-rspec
+  version: 2.22.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18892/default_b7088ec778267614a78a5a472c67252ec1721d10.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: smart_properties
+  description: SmartProperties are a more flexible and feature-rich alternative to
+    traditional Ruby accessors
+  package_url: https://rubygems.org/smart_properties
+  version: 1.17.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: sprockets
+  description: Sprockets is a Rack-based asset packaging system that concatenates
+    and serves JavaScript
+  package_url: https://rubygems.org/sprockets
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18932/default_36bbb38c1cd5521e90d6e99982778960b00ec515.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: sqlite3
+  description: This module allows Ruby programs to interface with the SQLite3 database
+    engine
+  package_url: https://rubygems.org/sqlite3
+  version: 1.6.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: state_machines
+  description: Adds support for creating state machines for attributes on any Ruby
+    class
+  package_url: https://rubygems.org/state_machines
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: thor
+  description: Thor is a toolkit for building powerful command-line interfaces
+  package_url: https://rubygems.org/thor
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18827/default_fa0604c1b3b2c413c942b4fa310935704d314c2f.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: tapioca.gemspec
+  last_updated_by: Ufuk Kayserilioglu
+  last_updated_on: 2022-01-24 22:31:10.000000000 Z
+- name: webmock
+  description: WebMock allows stubbing HTTP requests and setting expectations on HTTP
+    requests
+  package_url: https://rubygems.org/webmock
+  version: 3.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
+- name: xpath
+  description: XPath is a Ruby DSL for generating XPath expressions
+  package_url: https://rubygems.org/xpath
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/2lambda123/tapioca/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Andy Waite
+  last_updated_on: 2023-05-31 15:11:40.000000000 Z
